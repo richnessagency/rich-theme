@@ -11,7 +11,7 @@ RichCommerce uses a WordPress-inspired theming engine called **RichTheme**, inst
 
 | Property | Value |
 |----------|-------|
-| **Development repo** | `/home/omar/Working/Richness/MainSite/rich-theme` |
+| **Development repo** | `/home/omar/Working/Richness/packages/rich-theme` |
 | **Installed path** | `vendor/richnessagency/rich-theme/` |
 | **Namespace** | `Richness\RichTheme` |
 | **Composer name** | `richnessagency/rich-theme` |
@@ -32,7 +32,7 @@ Token override priority (highest first):
 
 ## Key Files
 
-### Package (`vendor/richnessagency/rich-theme/`, develop in `MainSite/rich-theme`)
+### Package (`vendor/richnessagency/rich-theme/`, develop in `/home/omar/Working/Richness/packages/rich-theme`)
 | File | Purpose |
 |------|---------|
 | `src/ThemeContext.php` | Immutable value object — all resolved tokens |
