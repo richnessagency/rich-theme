@@ -28,7 +28,7 @@ Use these rules when modifying `richnessagency/rich-theme`.
 Run:
 
 ```bash
-php artisan test packages/rich-theme/tests
+php artisan test vendor/richnessagency/rich-theme/tests
 ```
 
 For layout work, also open `/admin/themes` and `/admin/themes/customize` and inspect storefront pages with both `default` and `light-clean`.

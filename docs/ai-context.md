@@ -5,16 +5,17 @@
 
 ## System Overview
 
-RichCommerce uses a WordPress-inspired theming engine called **RichTheme**, implemented as a **local Composer package** at `packages/rich-theme/`. Themes are directories under `resources/themes/` that can override Blade views, inject CSS design tokens, and include custom CSS.
+RichCommerce uses a WordPress-inspired theming engine called **RichTheme**, installed from the standalone Composer package `richnessagency/rich-theme`. Themes are directories under `resources/themes/` that can override Blade views, inject CSS design tokens, and include custom CSS.
 
 ## Package Info
 
 | Property | Value |
 |----------|-------|
-| **Location** | `packages/rich-theme/` |
+| **Development repo** | `/home/omar/Working/Richness/MainSite/rich-theme` |
+| **Installed path** | `vendor/richnessagency/rich-theme/` |
 | **Namespace** | `Richness\RichTheme` |
 | **Composer name** | `richnessagency/rich-theme` |
-| **Type** | Local path repository |
+| **Type** | Standalone Composer/VCS package |
 | **Facade** | `Richness\RichTheme\Facades\Theme` (alias: `Theme`) |
 
 ## Active Theme Resolution
@@ -31,7 +32,7 @@ Token override priority (highest first):
 
 ## Key Files
 
-### Package (packages/rich-theme/)
+### Package (`vendor/richnessagency/rich-theme/`, develop in `MainSite/rich-theme`)
 | File | Purpose |
 |------|---------|
 | `src/ThemeContext.php` | Immutable value object — all resolved tokens |

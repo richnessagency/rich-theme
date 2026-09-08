@@ -102,7 +102,7 @@ The customizer stores only whitelisted token overrides. It rejects unsafe CSS va
 ## Testing
 
 ```bash
-php artisan test packages/rich-theme/tests
+php artisan test vendor/richnessagency/rich-theme/tests
 ```
 
 ## HTML Converter
